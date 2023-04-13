@@ -20,3 +20,4 @@ def filter(hook, value, *args):
         for func in _callbacks[hook][order]:
             value = func(value, *args)
     return value
+  
